@@ -6,6 +6,8 @@ const SUB_DOMAIN = 'jobsus';
 const DOMAIN = 'netlify.app';
 const SITE_NAME_TITLE = 'POSTS';
 const POST_DIR = 'static';
+        //jobsus addition:
+    const FORM_ID = process.env.FORM_ID_postForm;
 
 const formatRFC822 = (date) => {
   return new Date(date).toUTCString(); // Convert date to RFC-822 format
@@ -56,7 +58,7 @@ exports.handler = async (event) => {
     }
 
     // Fetch submissions from Netlify Forms
-    const formId = '673faec750f0a700080c6bac';
+    const formId = FORM_ID;
     const endpoint = `https://api.netlify.com/api/v1/forms/${formId}/submissions`;
     const formResponse = await fetch(endpoint, {
       headers: {
