@@ -9,7 +9,7 @@ exports.handler = async (event) => {
 
     // Kirim permintaan ke URL yang diinginkan
     const response = await fetch(
-      "https://postnetlify.netlify.app/.netlify/functions/triggerManager_background",
+      "https://jobsus.netlify.app/.netlify/functions/triggerManager_background",
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
