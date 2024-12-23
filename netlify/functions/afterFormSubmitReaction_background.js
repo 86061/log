@@ -5,7 +5,7 @@
 //Add Notification
 //HTTP POST request
 //Event to listen for : New form submission
-//URL to notify, isi dengan url ke file ini : https://postnetlify.netlify.app/.netlify/functions/afterFormSubmitReaction_background
+//URL to notify, isi dengan url ke file ini : https://jobsus.netlify.app/.netlify/functions/afterFormSubmitReaction_background
 //Form : postForm
 //lainnya kosongkan
 //Save!
@@ -20,7 +20,7 @@ exports.handler = async (event) => {
 
     // Kirim permintaan ke URL yang diinginkan
     const response = await fetch(
-      "https://postnetlify.netlify.app/.netlify/functions/triggerManager_background",
+      "https://jobsus.netlify.app/.netlify/functions/triggerManager_background",
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
