@@ -42,6 +42,9 @@ exports.handler = async (event) => {
     const REPO = process.env.REPO;
     const STATIC_DIR = "static"; // Direktori target di GitHub
 
+    //jobsus addition:
+    const FORM_ID = process.env.FORM_ID_postForm;
+
     // Ambil nilai RECREATE dari query parameter
     const params = new URLSearchParams(event.queryStringParameters);
     const RECREATE = params.get('RECREATE') === 'true';
@@ -52,7 +55,7 @@ exports.handler = async (event) => {
       );
     }
 
-    const formId = "673faec750f0a700080c6bac";
+    const formId = FORM_ID;
     const endpoint = `https://api.netlify.com/api/v1/forms/${formId}/submissions`;
 
     // Step 1: Fetch submissions dari Netlify
