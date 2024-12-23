@@ -2,41 +2,41 @@
     <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
       <channel>
         <title>POSTS - Page 1</title>
-        <link>https://.netlify.app</link>
-        <description>RSS feed for form submissions (Page 1 of 6)</description>
-        <atom:link href="https://.netlify.app/rssfeed-page-1.xml" rel="self" type="application/rss+xml" />
+        <link>https://jobsus.netlify.app</link>
+        <description>RSS feed for form submissions (Page 1 of 2)</description>
+        <atom:link href="https://jobsus.netlify.app/rssfeed-page-1.xml" rel="self" type="application/rss+xml" />
         
             <item>
-              <title>CRUD on Netlify Form</title>
-              <link>https://.netlify.app/static/crud-on-netlify-form-715.html</link>
-              <description>CRUD on Netlify Forms: A Step-by-Step GuideNetlify Forms is a powerful feature of the Netlify platform that allows developers to handle form submissions</description>
-              <category>development</category>
-              <author>Master@.netlify.app (Master)</author>
-              <pubDate>Mon, 23 Dec 2024 02:08:29 GMT</pubDate>
-              <guid isPermaLink="true">https://.netlify.app/static/crud-on-netlify-form-715.html</guid>
+              <title>Ini Title Nya juga</title>
+              <link>https://jobsus.netlify.app/static/ini-title-nya-juga-777.html</link>
+              <description>Ini Textarea bodynya</description>
+              <category>ini category</category>
+              <author>Bobi@jobsus.netlify.app (Bobi)</author>
+              <pubDate>Mon, 23 Dec 2024 12:52:13 GMT</pubDate>
+              <guid isPermaLink="true">https://jobsus.netlify.app/static/ini-title-nya-juga-777.html</guid>
+              <media:content url="https://res.cloudinary.com/harga-promo-diskon/image/upload/f_auto/v1734958332/ini-title-nya-juga-777.png.png" />
+            </item>
+
+            <item>
+              <title>Ini Title Nya</title>
+              <link>https://jobsus.netlify.app/static/ini-title-nya-775.html</link>
+              <description>Ini Textarea</description>
+              <category>ini category</category>
+              <author>Bobi@jobsus.netlify.app (Bobi)</author>
+              <pubDate>Mon, 23 Dec 2024 12:46:09 GMT</pubDate>
+              <guid isPermaLink="true">https://jobsus.netlify.app/static/ini-title-nya-775.html</guid>
+              <media:content url="https://res.cloudinary.com/harga-promo-diskon/image/upload/f_auto/v1734957967/ini-title-nya-775.webp.webp" />
+            </item>
+
+            <item>
+              <title>coba aja</title>
+              <link>https://jobsus.netlify.app/static/coba-aja.html</link>
+              <description>ini body content Lowongan Kerja di Bandung Jawa Barat - Desember 2024Jobstreethttps://id.jobstreet.comTranslate this pageTemukan pekerjaan ideal Anda di</description>
+              <category>ini category</category>
+              <author>Bobi@jobsus.netlify.app (Bobi)</author>
+              <pubDate>Mon, 23 Dec 2024 12:41:05 GMT</pubDate>
+              <guid isPermaLink="true">https://jobsus.netlify.app/static/coba-aja.html</guid>
               <media:content url="https://res.cloudinary.com/harga-promo-diskon/image/upload/f_auto/v1734919708/crud-on-netlify-form-715.webp.webp" />
-            </item>
-
-            <item>
-              <title>Page Speed Desktop version score 100</title>
-              <link>https://.netlify.app/static/page-speed-desktop-version-score-100-955.html</link>
-              <description>Laporan PageSpeed Insights yang Anda tampilkan menunjukkan bahwa situs Anda memiliki kinerja yang sangat baik, dengan skor sempurna pada beberapa metrik</description>
-              <category>development</category>
-              <author>Master@.netlify.app (Master)</author>
-              <pubDate>Sat, 21 Dec 2024 16:17:20 GMT</pubDate>
-              <guid isPermaLink="true">https://.netlify.app/static/page-speed-desktop-version-score-100-955.html</guid>
-              <media:content url="https://res.cloudinary.com/harga-promo-diskon/image/upload/f_auto/v1734797839/page-speed-desktop-version-score-100-955.avif.avif" />
-            </item>
-
-            <item>
-              <title>Laporan PageSpeed Insights </title>
-              <link>https://.netlify.app/static/laporan-pagespeed-insights-454.html</link>
-              <description>Laporan PageSpeed Insights Anda menunjukkan kinerja situs yang sangat baik dengan skor mendekati maksimal di hampir semua metrik. Berikut adalah ringkasan</description>
-              <category>development</category>
-              <author>Master@.netlify.app (Master)</author>
-              <pubDate>Sat, 21 Dec 2024 15:28:56 GMT</pubDate>
-              <guid isPermaLink="true">https://.netlify.app/static/laporan-pagespeed-insights-454.html</guid>
-              <media:content url="https://res.cloudinary.com/harga-promo-diskon/image/upload/f_auto/v1734794935/laporan-pagespeed-insights-454.webp.webp" />
             </item>
       </channel>
     </rss>
