@@ -1,6 +1,6 @@
 //based on https://chatgpt.com/share/6766c624-0db4-8011-8246-bc86fa33808d
 //simpan code ini sebagai /netlify/functions/afterFormSubmitReaction_background.js
-//lalu buka https://app.netlify.com/sites/postnetlify/configuration/notifications#form-submission-notifications
+//lalu buka https://app.netlify.com/sites/jobsus/configuration/notifications#form-submission-notifications
 //bagian Form submission notifications
 //Add Notification
 //HTTP POST request
@@ -32,7 +32,7 @@ exports.handler = async (event) => {
     // Log the URL and payload for the outgoing request
     const targetUrl = "https://jobsus.netlify.app/.netlify/functions/triggerManager_background";
     const payload = {
-      message: "afterFormSubmitReaction.js: A New form submission triggered triggerManager_background.js running",
+      message: "afterFormSubmitReaction_background.js: A New form submission triggered triggerManager_background.js running",
       data: formData
     };
     console.log("Target URL:", targetUrl);
