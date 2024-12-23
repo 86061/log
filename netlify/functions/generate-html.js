@@ -12,7 +12,7 @@ exports.handler = async (event) => {
 
   try {
     // Step 1: Ambil HTML dari URL
-    const url = `https://postnetlify.netlify.app/post/${slug}.html`;
+    const url = `https://jobsus.netlify.app/post/${slug}.html`;
     console.log("Fetching HTML from URL:", url);
 
     const response = await axios.get(url);
