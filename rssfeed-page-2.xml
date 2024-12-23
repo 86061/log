@@ -2,40 +2,40 @@
     <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
       <channel>
         <title>POSTS - Page 2</title>
-        <link>https://postnetlify.netlify.app</link>
+        <link>https://jobsus.netlify.app</link>
         <description>RSS feed for form submissions (Page 2 of 6)</description>
-        <atom:link href="https://postnetlify.netlify.app/rssfeed-page-2.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://jobsus.netlify.app/rssfeed-page-2.xml" rel="self" type="application/rss+xml" />
         
             <item>
               <title>Cara Kerja Sistem CRUD Berbasis Netlify Forms</title>
-              <link>https://postnetlify.netlify.app/static/cara-kerja-sistem-crud-berbasis-netlify-forms-338.html</link>
+              <link>https://jobsus.netlify.app/static/cara-kerja-sistem-crud-berbasis-netlify-forms-338.html</link>
               <description>Memahami Cara Kerja Sistem CRUD Berbasis Netlify FormsArtikel ini membahas inti dari sebuah sistem berbasis&amp;nbsp;CRUD&amp;nbsp;(Create, Read, Update, Delete)</description>
               <category>development</category>
-              <author>Master@postnetlify.netlify.app (Master)</author>
+              <author>Master@jobsus.netlify.app (Master)</author>
               <pubDate>Sat, 21 Dec 2024 07:52:01 GMT</pubDate>
-              <guid isPermaLink="true">https://postnetlify.netlify.app/static/cara-kerja-sistem-crud-berbasis-netlify-forms-338.html</guid>
+              <guid isPermaLink="true">https://jobsus.netlify.app/static/cara-kerja-sistem-crud-berbasis-netlify-forms-338.html</guid>
               <media:content url="https://res.cloudinary.com/harga-promo-diskon/image/upload/f_auto/v1734767520/cara-kerja-sistem-crud-berbasis-netlify-forms-338.webp.webp" />
             </item>
 
             <item>
               <title>Memaksa File di Github Diikutsertakan ke Dalam Deployment Netlify</title>
-              <link>https://postnetlify.netlify.app/static/memaksa-file-di-github-diikutsertakan-ke-dalam-deployment-netlify-670.html</link>
+              <link>https://jobsus.netlify.app/static/memaksa-file-di-github-diikutsertakan-ke-dalam-deployment-netlify-670.html</link>
               <description>Kesalahan ini terjadi karena file static-post-template.html tidak ditemukan pada lokasi yang ditentukan</description>
               <category>development</category>
-              <author>Master@postnetlify.netlify.app (Master)</author>
+              <author>Master@jobsus.netlify.app (Master)</author>
               <pubDate>Sun, 15 Dec 2024 07:29:31 GMT</pubDate>
-              <guid isPermaLink="true">https://postnetlify.netlify.app/static/memaksa-file-di-github-diikutsertakan-ke-dalam-deployment-netlify-670.html</guid>
+              <guid isPermaLink="true">https://jobsus.netlify.app/static/memaksa-file-di-github-diikutsertakan-ke-dalam-deployment-netlify-670.html</guid>
               <media:content url="https://res.cloudinary.com/harga-promo-diskon/image/upload/f_auto/v1734247770/memaksa-file-di-github-diikutsertakan-ke-dalam-deployment-netlify-670.avif.avif" />
             </item>
 
             <item>
               <title>Write Static HTML Generator Using Netlify Function into Github</title>
-              <link>https://postnetlify.netlify.app/static/write-static-html-generator-using-netlify-function-into-github-122.html</link>
+              <link>https://jobsus.netlify.app/static/write-static-html-generator-using-netlify-function-into-github-122.html</link>
               <description>Tidak secara otomatis. Form Netlify akan mengirimkan data ke endpoint default Netlify atau endpoint lain yang Anda tentukan. Agar form submission dapat</description>
               <category>javascript</category>
-              <author>Master@postnetlify.netlify.app (Master)</author>
+              <author>Master@jobsus.netlify.app (Master)</author>
               <pubDate>Sat, 14 Dec 2024 22:20:57 GMT</pubDate>
-              <guid isPermaLink="true">https://postnetlify.netlify.app/static/write-static-html-generator-using-netlify-function-into-github-122.html</guid>
+              <guid isPermaLink="true">https://jobsus.netlify.app/static/write-static-html-generator-using-netlify-function-into-github-122.html</guid>
               <media:content url="https://res.cloudinary.com/harga-promo-diskon/image/upload/f_auto/v1734214855/write-static-html-generator-using-netlify-function-into-github-122.avif.avif" />
             </item>
       </channel>
