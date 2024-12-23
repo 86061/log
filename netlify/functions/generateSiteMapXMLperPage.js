@@ -4,6 +4,8 @@ const NETLIFY_ACCESS_TOKEN = process.env.NET_TOKEN;
 const SUB_DOMAIN = 'jobsus';
 const DOMAIN = 'netlify.app';
 const POST_DIR = 'static';
+        //jobsus addition:
+    const FORM_ID = process.env.FORM_ID_postForm;
 
 const formatDate = (date) => {
   return new Date(date).toISOString();
@@ -57,7 +59,7 @@ exports.handler = async (event) => {
     }
 
     // Fetch submissions from Netlify Forms
-    const formId = '673faec750f0a700080c6bac';
+    const formId = FORM_ID;
     const endpoint = `https://api.netlify.com/api/v1/forms/${formId}/submissions`;
     const formResponse = await fetch(endpoint, {
       headers: {
