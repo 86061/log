@@ -19,33 +19,5 @@
             <description>RSS feed for page 2</description>
             <guid isPermaLink="true">https://jobsus.netlify.app/rssfeed-page-2.xml</guid>
           </item>
-
-          <item>
-            <title>POSTS - Page 3</title>
-            <link>https://jobsus.netlify.app/rssfeed-page-3.xml</link>
-            <description>RSS feed for page 3</description>
-            <guid isPermaLink="true">https://jobsus.netlify.app/rssfeed-page-3.xml</guid>
-          </item>
-
-          <item>
-            <title>POSTS - Page 4</title>
-            <link>https://jobsus.netlify.app/rssfeed-page-4.xml</link>
-            <description>RSS feed for page 4</description>
-            <guid isPermaLink="true">https://jobsus.netlify.app/rssfeed-page-4.xml</guid>
-          </item>
-
-          <item>
-            <title>POSTS - Page 5</title>
-            <link>https://jobsus.netlify.app/rssfeed-page-5.xml</link>
-            <description>RSS feed for page 5</description>
-            <guid isPermaLink="true">https://jobsus.netlify.app/rssfeed-page-5.xml</guid>
-          </item>
-
-          <item>
-            <title>POSTS - Page 6</title>
-            <link>https://jobsus.netlify.app/rssfeed-page-6.xml</link>
-            <description>RSS feed for page 6</description>
-            <guid isPermaLink="true">https://jobsus.netlify.app/rssfeed-page-6.xml</guid>
-          </item>
       </channel>
     </rss>
