@@ -34,39 +34,43 @@ exports.handler = async () => {
     'https://jobsus.netlify.app/.netlify/functions/generateSiteMapXMLperPage'
   ];
 
-
+  console.log("Starting triggerManager_background function");
 
   try {
     for (let i = 0; i < functionUrls.length; i++) {
-      console.log(`Memulai pemanggilan fungsi ${i + 1}: ${functionUrls[i]}`);
+      console.log(`Starting call to function ${i + 1}: ${functionUrls[i]}`);
 
       const response = await fetch(functionUrls[i]);
       const contentType = response.headers.get('content-type');
+      console.log(`Response for function ${i + 1}: HTTP ${response.status} - Content-Type: ${contentType}`);
 
+      let result;
       // Periksa tipe konten respons
       if (contentType.includes('application/json')) {
-        const jsonResult = await response.json();
-        console.log(`Fungsi ${i + 1} selesai dengan JSON:`, jsonResult);
+        result = await response.json();
+        console.log(`Function ${i + 1} completed with JSON:`, result);
       } else if (contentType.includes('text/html')) {
-        const htmlResult = await response.text();
-        console.log(`Fungsi ${i + 1} selesai dengan HTML:\n${htmlResult.substring(0, 200)}...`); // Potong untuk log
+        result = await response.text();
+        console.log(`Function ${i + 1} completed with HTML:\n${result.substring(0, 200)}...`); // Potong untuk log
       } else if (contentType.includes('text/plain')) {
-        const textResult = await response.text();
-        console.log(`Fungsi ${i + 1} selesai dengan Text:\n${textResult.substring(0, 200)}...`); // Potong untuk log
+        result = await response.text();
+        console.log(`Function ${i + 1} completed with Text:\n${result.substring(0, 200)}...`); // Potong untuk log
       } else {
-        throw new Error(`Fungsi ${i + 1} mengembalikan tipe konten yang tidak dikenali: ${contentType}`);
+        throw new Error(`Function ${i + 1} returned an unrecognized content type: ${contentType}`);
       }
     }
 
+    console.log("All functions executed successfully!");
     return {
       statusCode: 200,
-      body: 'Semua fungsi berhasil dijalankan secara berurutan!'
+      body: 'All functions executed successfully!'
     };
   } catch (error) {
-    console.error('Kesalahan saat menjalankan fungsi:', error);
+    console.error('Error while executing functions:', error);
+    console.error('Stack trace:', error.stack);
     return {
       statusCode: 500,
-      body: `Kesalahan saat menjalankan fungsi: ${error.message}`
+      body: `Error while executing functions: ${error.message}`
     };
   }
 };
