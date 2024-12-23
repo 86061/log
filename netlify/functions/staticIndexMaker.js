@@ -28,7 +28,7 @@ exports.handler = async () => {
     console.log("GitHub Token:", GITHUB_TOKEN);
     console.log("Repo:", REPO);
     console.log("Form ID:", FORM_ID);
-    console.log("Netlify Endpoint:", endpoint);
+    console.log("Netlify Endpoint:", NETLIFY_ENDPOINT);
 
 
     
