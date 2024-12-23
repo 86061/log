@@ -25,7 +25,7 @@ exports.handler = async (event) => {
   }
 
   // Jika file statis tidak ada, lanjutkan untuk menyajikan konten dinamis
-  const dynamicUrl = `https://postnetlify.netlify.app/post/${slug}.html`;
+  const dynamicUrl = `https://jobsus.netlify.app/post/${slug}.html`;
   return {
     statusCode: 200,
     body: JSON.stringify({ message: 'Serve dynamic content', url: dynamicUrl }),
