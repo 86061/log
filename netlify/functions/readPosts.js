@@ -3,12 +3,15 @@ const fetch = require('node-fetch');
 exports.handler = async () => {
   try {
     const NETLIFY_ACCESS_TOKEN = process.env.NET_TOKEN;
+        //jobsus addition:
+    const FORM_ID = process.env.FORM_ID_postForm;
+    
     //NET_TOKEN  //nfp_J9noW6zg8YM1XFrUJF1Sa3DYUrbaoJvB8b90
     if (!NETLIFY_ACCESS_TOKEN) {
       throw new Error("NET_TOKEN environment variable is missing");
     }
 
-    const formId = "673faec750f0a700080c6bac";
+    const formId = FORM_ID;
     const endpoint = `https://api.netlify.com/api/v1/forms/${formId}/submissions`;
 
     const response = await fetch(endpoint, {
