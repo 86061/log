@@ -15,10 +15,10 @@ const fetch = require("node-fetch");
 
 exports.handler = async (event) => {
   try {
-    // Log the raw event body
+    // Log the raw event body to debug input
     console.log("Raw event body:", event.body);
 
-    // Parse form data (optional, if needed)
+    // Parse form data
     let formData;
     try {
       formData = JSON.parse(event.body);
@@ -45,6 +45,7 @@ exports.handler = async (event) => {
       body: JSON.stringify({ success: true, message: "Triggered successfully" }),
     };
   } catch (error) {
+    console.error("Error:", error.message);
     return {
       statusCode: 500,
       body: JSON.stringify({ success: false, message: error.message }),
