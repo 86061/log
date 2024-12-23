@@ -1,25 +1,25 @@
-//ini isi file https://postnetlify.netlify.app/.netlify/functions/triggerManager_background.js
+//ini isi file https://jobsus.netlify.app/.netlify/functions/triggerManager_background.js
 //Fungsi-fungsi :
   // Fungsi 1: Create static version of the post
-  //'https://postnetlify.netlify.app/saveFormsToStatic'
+  //'https://jobsus.netlify.app/saveFormsToStatic'
   
   // Fungsi 2: Create static index page files
-  //'https://postnetlify.netlify.app/staticIndexMaker'
+  //'https://jobsus.netlify.app/staticIndexMaker'
   
   // Fungsi 3: Update RSS feed 1 page:
-  //'https://postnetlify.netlify.app/rssfeed' diberi alternatif baru berupa single proses:
-  //https://postnetlify.netlify.app/.netlify/functions/generateRSSfeedXML
+  //'https://jobsus.netlify.app/rssfeed' diberi alternatif baru berupa single proses:
+  //https://jobsus.netlify.app/.netlify/functions/generateRSSfeedXML
   //untuk validasi hasilnya rssfeed.xml tunggu netlify build and publish dulu
 
   // Fungsi 3a: Update RSS feed multi sub page and 1 index page:
-  //https://postnetlify.netlify.app/.netlify/functions/generateRSSfeedXMLperPage
+  //https://jobsus.netlify.app/.netlify/functions/generateRSSfeedXMLperPage
 
   
   // Fungsi 4: Update sitemap
-  //'https://postnetlify.netlify.app/sitemap-xml'
+  //'https://jobsus.netlify.app/sitemap-xml'
 
   // Fungsi 4a: Update Site map XML multi sub page and 1 index page:
-  //https://postnetlify.netlify.app/.netlify/functions/generateSiteMapXMLperPage
+  //https://jobsus.netlify.app/.netlify/functions/generateSiteMapXMLperPage
 
 
 //////////////////////////////////////////
@@ -28,10 +28,10 @@ const fetch = require('node-fetch');
 
 exports.handler = async () => {
   const functionUrls = [
-    'https://postnetlify.netlify.app/.netlify/functions/saveFormsToStatic',
-    'https://postnetlify.netlify.app/.netlify/functions/staticIndexMaker',
-    'https://postnetlify.netlify.app/.netlify/functions/generateRSSfeedXMLperPage',
-    'https://postnetlify.netlify.app/.netlify/functions/generateSiteMapXMLperPage'
+    'https://jobsus.netlify.app/.netlify/functions/saveFormsToStatic',
+    'https://jobsus.netlify.app/.netlify/functions/staticIndexMaker',
+    'https://jobsus.netlify.app/.netlify/functions/generateRSSfeedXMLperPage',
+    'https://jobsus.netlify.app/.netlify/functions/generateSiteMapXMLperPage'
   ];
 
 
