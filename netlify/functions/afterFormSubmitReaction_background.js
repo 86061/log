@@ -14,6 +14,7 @@
 const fetch = require("node-fetch");
 
 exports.handler = async (event) => {
+  console.log("Handler started");
   try {
     // Log the raw event body to debug input
     console.log("Raw event body:", event.body);
@@ -22,30 +23,45 @@ exports.handler = async (event) => {
     let formData;
     try {
       formData = JSON.parse(event.body);
+      console.log("Parsed form data:", formData);
     } catch (e) {
+      console.error("Failed to parse form data:", e);
       throw new Error("Invalid JSON input");
     }
 
+    // Log the URL and payload for the outgoing request
+    const targetUrl = "https://jobsus.netlify.app/.netlify/functions/triggerManager_background";
+    const payload = {
+      message: "afterFormSubmitReaction.js: A New form submission triggered triggerManager_background.js running",
+      data: formData
+    };
+    console.log("Target URL:", targetUrl);
+    console.log("Payload:", payload);
+
     // Send the request to the desired URL
-    const response = await fetch(
-      "https://jobsus.netlify.app/.netlify/functions/triggerManager_background",
-      {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message: "afterFormSubmitReaction.js: A New form submission triggered triggerManager_background.js running ", data: formData }),
-      }
-    );
+    const response = await fetch(targetUrl, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    });
+
+    // Log response status and response body
+    console.log("Response status:", response.status);
+    const responseBody = await response.text();
+    console.log("Response body:", responseBody);
 
     if (!response.ok) {
       throw new Error(`HTTP Error: ${response.status}`);
     }
 
+    console.log("Handler completed successfully");
     return {
       statusCode: 200,
       body: JSON.stringify({ success: true, message: "Triggered successfully" }),
     };
   } catch (error) {
     console.error("Error:", error.message);
+    console.error("Stack trace:", error.stack);
     return {
       statusCode: 500,
       body: JSON.stringify({ success: false, message: error.message }),
