@@ -2,40 +2,40 @@
     <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
       <channel>
         <title>POSTS - Page 3</title>
-        <link>https://postnetlify.netlify.app</link>
+        <link>https://jobsus.netlify.app</link>
         <description>RSS feed for form submissions (Page 3 of 6)</description>
-        <atom:link href="https://postnetlify.netlify.app/rssfeed-page-3.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://jobsus.netlify.app/rssfeed-page-3.xml" rel="self" type="application/rss+xml" />
         
             <item>
               <title> Saving a Payload to a File in a GitHub Repo Using Netlify Function and GitHub API</title>
-              <link>https://postnetlify.netlify.app/static/saving-a-payload-to-a-file-in-a-github-repo-using-netlify-function-and-github-api-549.html</link>
+              <link>https://jobsus.netlify.app/static/saving-a-payload-to-a-file-in-a-github-repo-using-netlify-function-and-github-api-549.html</link>
               <description>Here is a summary of the logic and workflow of the process of saving a payload to a file in a GitHub repo using Netlify Function and GitHub API:1. Accept</description>
               <category>js, blogging</category>
-              <author>Master@postnetlify.netlify.app (Master)</author>
+              <author>Master@jobsus.netlify.app (Master)</author>
               <pubDate>Thu, 12 Dec 2024 03:12:32 GMT</pubDate>
-              <guid isPermaLink="true">https://postnetlify.netlify.app/static/saving-a-payload-to-a-file-in-a-github-repo-using-netlify-function-and-github-api-549.html</guid>
+              <guid isPermaLink="true">https://jobsus.netlify.app/static/saving-a-payload-to-a-file-in-a-github-repo-using-netlify-function-and-github-api-549.html</guid>
               <media:content url="https://res.cloudinary.com/harga-promo-diskon/image/upload/f_auto/v1733973151/saving-a-payload-to-a-file-in-a-github-repo-using-netlify-function-and-github-api-549.webp.webp" />
             </item>
 
             <item>
               <title>Blogging Using Netlify Function to Write to Github</title>
-              <link>https://postnetlify.netlify.app/static/blogging-using-netlify-function-to-write-to-github-593.html</link>
+              <link>https://jobsus.netlify.app/static/blogging-using-netlify-function-to-write-to-github-593.html</link>
               <description>To blog using a Netlify function to write to GitHub, you can&amp;nbsp;create a serverless function within your Netlify project that will handle incoming blog</description>
               <category>js, blogging</category>
-              <author>Master@postnetlify.netlify.app (Master)</author>
+              <author>Master@jobsus.netlify.app (Master)</author>
               <pubDate>Thu, 12 Dec 2024 02:50:24 GMT</pubDate>
-              <guid isPermaLink="true">https://postnetlify.netlify.app/static/blogging-using-netlify-function-to-write-to-github-593.html</guid>
+              <guid isPermaLink="true">https://jobsus.netlify.app/static/blogging-using-netlify-function-to-write-to-github-593.html</guid>
               <media:content url="https://res.cloudinary.com/harga-promo-diskon/image/upload/f_auto/v1733971823/blogging-using-netlify-function-to-write-to-github-593.webp.webp" />
             </item>
 
             <item>
               <title>Write to GitHub Repo Using a Netlify Function</title>
-              <link>https://postnetlify.netlify.app/static/write-to-github-repo-using-a-netlify-function-744.html</link>
+              <link>https://jobsus.netlify.app/static/write-to-github-repo-using-a-netlify-function-744.html</link>
               <description>To write to GitHub using a Netlify function, you need to&amp;nbsp;create a serverless function in your Netlify project that makes an authenticated API request</description>
               <category>javascript</category>
-              <author>Master@postnetlify.netlify.app (Master)</author>
+              <author>Master@jobsus.netlify.app (Master)</author>
               <pubDate>Thu, 12 Dec 2024 02:44:27 GMT</pubDate>
-              <guid isPermaLink="true">https://postnetlify.netlify.app/static/write-to-github-repo-using-a-netlify-function-744.html</guid>
+              <guid isPermaLink="true">https://jobsus.netlify.app/static/write-to-github-repo-using-a-netlify-function-744.html</guid>
               <media:content url="https://res.cloudinary.com/harga-promo-diskon/image/upload/f_auto/v1733971465/write-to-github-repo-using-a-netlify-function-744.webp.webp" />
             </item>
       </channel>
