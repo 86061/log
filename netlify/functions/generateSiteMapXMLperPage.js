@@ -1,7 +1,7 @@
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 const REPO = process.env.REPO;
 const NETLIFY_ACCESS_TOKEN = process.env.NET_TOKEN;
-const SUB_DOMAIN = 'postnetlify';
+const SUB_DOMAIN = 'jobsus';
 const DOMAIN = 'netlify.app';
 const POST_DIR = 'static';
 
