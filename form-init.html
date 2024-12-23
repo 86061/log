@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="robots" content="noindex, nofollow">
+		<title>CRUD System with Netlify Forms</title>
+		<link rel="stylesheet" href="/post-html.css">
+		<link rel="stylesheet" href="/ed-html.css">
+
+	</head>
+	<body>
+      
+      
+      <form action="/" name="postForm" id="postForm" method="POST" data-netlify="true"  enctype="multipart/form-data" >
+					<input type="hidden" name="form-name" value="postForm" />  
+  
+
+  <!-- Title -->
+  <label for="title">Title</label>
+  <input type="text" name="title" id="title" placeholder="Enter title" required />
+
+  <!-- Slug -->
+  <label for="slug">Slug</label>
+  <input type="text" name="slug" id="slug" placeholder="Enter slug" required />
+
+  <!-- Tags -->
+  <label for="tags">Tags</label>
+  <input type="text" name="tags" id="tags"
+    
+  <label  for="category">Category</label>
+  <div>
+		<input type="text" name="category" id="category" value="ini category" />
+  </div>
+					
+  <!-- Body -->
+  <label for="bodypost">Body</label>
+  <textarea name="bodypost" id="bodypost" rows="5" placeholder="Enter body content" required></textarea>
+
+  <!-- Author -->
+  <label for="author">Author</label>
+  <input type="text" name="author" id="author" placeholder="Author name" required />
+
+  <!-- Submit Button -->
+  <button type="submit">Submit</button>
+</form>
+</body>
+</html>
