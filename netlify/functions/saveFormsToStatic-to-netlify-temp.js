@@ -5,7 +5,9 @@ const path = require("path");
 exports.handler = async () => {
   try {
     const NETLIFY_ACCESS_TOKEN = process.env.NET_TOKEN;
-    const formId = "673faec750f0a700080c6bac";
+            //jobsus addition:
+    const FORM_ID = process.env.FORM_ID_postForm;
+    const formId = FORM_ID;
     const endpoint = `https://api.netlify.com/api/v1/forms/${formId}/submissions`;
 
     // Fetch submissions dari Netlify API
