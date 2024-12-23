@@ -3,40 +3,40 @@
       <channel>
         <title>POSTS - Page 2</title>
         <link>https://jobsus.netlify.app</link>
-        <description>RSS feed for form submissions (Page 2 of 6)</description>
+        <description>RSS feed for form submissions (Page 2 of 2)</description>
         <atom:link href="https://jobsus.netlify.app/rssfeed-page-2.xml" rel="self" type="application/rss+xml" />
         
             <item>
-              <title>Cara Kerja Sistem CRUD Berbasis Netlify Forms</title>
-              <link>https://jobsus.netlify.app/static/cara-kerja-sistem-crud-berbasis-netlify-forms-338.html</link>
-              <description>Memahami Cara Kerja Sistem CRUD Berbasis Netlify FormsArtikel ini membahas inti dari sebuah sistem berbasis&amp;nbsp;CRUD&amp;nbsp;(Create, Read, Update, Delete)</description>
-              <category>development</category>
-              <author>Master@jobsus.netlify.app (Master)</author>
-              <pubDate>Sat, 21 Dec 2024 07:52:01 GMT</pubDate>
-              <guid isPermaLink="true">https://jobsus.netlify.app/static/cara-kerja-sistem-crud-berbasis-netlify-forms-338.html</guid>
-              <media:content url="https://res.cloudinary.com/harga-promo-diskon/image/upload/f_auto/v1734767520/cara-kerja-sistem-crud-berbasis-netlify-forms-338.webp.webp" />
+              <title>ini hanya test</title>
+              <link>https://jobsus.netlify.app/static/ini hanya slug.html</link>
+              <description>ini body content</description>
+              <category>ini category</category>
+              <author>Bobi@jobsus.netlify.app (Bobi)</author>
+              <pubDate>Mon, 23 Dec 2024 08:37:27 GMT</pubDate>
+              <guid isPermaLink="true">https://jobsus.netlify.app/static/ini hanya slug.html</guid>
+              <media:content url="https://res.cloudinary.com/harga-promo-diskon/image/upload/f_auto/v1734919708/crud-on-netlify-form-715.webp.webp" />
             </item>
 
             <item>
-              <title>Memaksa File di Github Diikutsertakan ke Dalam Deployment Netlify</title>
-              <link>https://jobsus.netlify.app/static/memaksa-file-di-github-diikutsertakan-ke-dalam-deployment-netlify-670.html</link>
-              <description>Kesalahan ini terjadi karena file static-post-template.html tidak ditemukan pada lokasi yang ditentukan</description>
-              <category>development</category>
-              <author>Master@jobsus.netlify.app (Master)</author>
-              <pubDate>Sun, 15 Dec 2024 07:29:31 GMT</pubDate>
-              <guid isPermaLink="true">https://jobsus.netlify.app/static/memaksa-file-di-github-diikutsertakan-ke-dalam-deployment-netlify-670.html</guid>
-              <media:content url="https://res.cloudinary.com/harga-promo-diskon/image/upload/f_auto/v1734247770/memaksa-file-di-github-diikutsertakan-ke-dalam-deployment-netlify-670.avif.avif" />
+              <title>Applying to study at a UK university as an international student </title>
+              <link>https://jobsus.netlify.app/static/applying-to-study-at-a-uk-university-as-an-international-student-720.html</link>
+              <description>Applying to study at a UK university as an international student can be an exciting opportunity, but it requires careful preparation. Here are some tips to</description>
+              <category>study, university,</category>
+              <author>Bobi@jobsus.netlify.app (Bobi)</author>
+              <pubDate>Mon, 23 Dec 2024 07:32:45 GMT</pubDate>
+              <guid isPermaLink="true">https://jobsus.netlify.app/static/applying-to-study-at-a-uk-university-as-an-international-student-720.html</guid>
+              <media:content url="https://res.cloudinary.com/harga-promo-diskon/image/upload/f_auto/v1734939164/applying-to-study-at-a-uk-university-as-an-international-student-720.jpg.jpg" />
             </item>
 
             <item>
-              <title>Write Static HTML Generator Using Netlify Function into Github</title>
-              <link>https://jobsus.netlify.app/static/write-static-html-generator-using-netlify-function-into-github-122.html</link>
-              <description>Tidak secara otomatis. Form Netlify akan mengirimkan data ke endpoint default Netlify atau endpoint lain yang Anda tentukan. Agar form submission dapat</description>
-              <category>javascript</category>
-              <author>Master@jobsus.netlify.app (Master)</author>
-              <pubDate>Sat, 14 Dec 2024 22:20:57 GMT</pubDate>
-              <guid isPermaLink="true">https://jobsus.netlify.app/static/write-static-html-generator-using-netlify-function-into-github-122.html</guid>
-              <media:content url="https://res.cloudinary.com/harga-promo-diskon/image/upload/f_auto/v1734214855/write-static-html-generator-using-netlify-function-into-github-122.avif.avif" />
+              <title>Applying to study at a U.S. university as a foreign student </title>
+              <link>https://jobsus.netlify.app/static/study-at-a-u-s-university-as-a-foreign-student-455.html</link>
+              <description>Applying to study at a U.S. university as a foreign student can be an exciting and transformative experience, but it also involves navigating a complex</description>
+              <category>study, university,</category>
+              <author>Bobi@jobsus.netlify.app (Bobi)</author>
+              <pubDate>Mon, 23 Dec 2024 07:27:57 GMT</pubDate>
+              <guid isPermaLink="true">https://jobsus.netlify.app/static/study-at-a-u-s-university-as-a-foreign-student-455.html</guid>
+              <media:content url="https://res.cloudinary.com/harga-promo-diskon/image/upload/f_auto/v1734938876/study-at-a-u-s-university-as-a-foreign-student-455.webp.webp" />
             </item>
       </channel>
     </rss>
