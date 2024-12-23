@@ -356,7 +356,7 @@ if (!window.postData) {
       "headline": post.data.title,
       "author": {
         "@type": "Person",
-        "url": "https://postnetlify.netlify.app/",
+        "url": "https://jobsus.netlify.app/",
         "name": post.data.author
       },
       "datePublished": post.created_at,
