@@ -23,7 +23,16 @@ exports.handler = async () => {
 
     
     let sha = null; // Tambahkan sebelum penggunaan
+ // Log environment variables dan FORM_ID
+    console.log("Netlify Access Token:", NETLIFY_ACCESS_TOKEN);
+    console.log("GitHub Token:", GITHUB_TOKEN);
+    console.log("Repo:", REPO);
+    console.log("Form ID:", FORM_ID);
+    console.log("Netlify Endpoint:", endpoint);
 
+
+    
+    
     if (!NETLIFY_ACCESS_TOKEN || !GITHUB_TOKEN || !REPO) {
       console.error("Missing environment variables:", {
         NETLIFY_ACCESS_TOKEN: !!NETLIFY_ACCESS_TOKEN,
