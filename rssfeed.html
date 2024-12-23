@@ -78,7 +78,7 @@ function generateSnippet(body) {
         const url = `${baseUrl}/static/${slug}.html`;
         const createdAt = new Date(post.created_at).toUTCString();
         const snippet = escapeXML(generateSnippet(post.data.bodypost));
-        const author = escapeXML(`${post.data.author || 'Master'}@postnetlify.netlify.app (${post.data.author || 'Master'})`);
+        const author = escapeXML(`${post.data.author || 'Master'}@jobsus.netlify.app (${post.data.author || 'Master'})`);
         const category = escapeXML(post.data.category || 'Uncategorized');
         const imageFileUrl = escapeXML(post.data.imagefile?.url || 'No image URL');
         
@@ -151,7 +151,7 @@ function generateSnippet(body) {
   <br>dan akan mengirim file rssfeed.xml tersebut ke GitHub repo ini untuk disimpan/replace
   <br>melalui fungsi Netlify saveRSSFeed.js,
   <br>process deploy Netlify ke GitHub akan membutuhkan waktu 2-5 menit.
-  <hr><a target="_blank" href="http://www.rssboard.org/rss-validator/check.cgi?url=https%3A//postnetlify.netlify.app/rssfeed.xml">
+  <hr><a target="_blank" href="http://www.rssboard.org/rss-validator/check.cgi?url=https%3A//jobsus.netlify.app/rssfeed.xml">
     <img src="https://www.rssboard.org/rss-validator/images/valid-rss-rogers.png" alt="[Valid RSS]" title="Validate my RSS feed" />
   </a>
   <hr>
