@@ -1,1 +1,1 @@
-Sitemap: https://postnetlify.netlify.app/sitemap.xml
+Sitemap: https://jobsus.netlify.app/sitemap.xml
