@@ -7,8 +7,10 @@ exports.handler = async () => {
     const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
     const REPO = process.env.REPO;
     const FILE_PATH = "index-static.html"; // Path untuk file di GitHub root
+            //jobsus addition:
+    const FORM_ID = process.env.FORM_ID_postForm;
 
-    const FORM_ID = "673faec750f0a700080c6bac"; // Ganti dengan ID Form Netlify Anda
+    // Ganti dengan ID Form Netlify Anda
     const NETLIFY_ENDPOINT = `https://api.netlify.com/api/v1/forms/${FORM_ID}/submissions`;
 
 
