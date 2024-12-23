@@ -15,10 +15,18 @@ const fetch = require("node-fetch");
 
 exports.handler = async (event) => {
   try {
-    // Parse form data (opsional, jika diperlukan)
-    const formData = JSON.parse(event.body);
+    // Log the raw event body
+    console.log("Raw event body:", event.body);
 
-    // Kirim permintaan ke URL yang diinginkan
+    // Parse form data (optional, if needed)
+    let formData;
+    try {
+      formData = JSON.parse(event.body);
+    } catch (e) {
+      throw new Error("Invalid JSON input");
+    }
+
+    // Send the request to the desired URL
     const response = await fetch(
       "https://jobsus.netlify.app/.netlify/functions/triggerManager_background",
       {
