@@ -12,12 +12,5 @@
             <description>RSS feed for page 1</description>
             <guid isPermaLink="true">https://jobsus.netlify.app/rssfeed-page-1.xml</guid>
           </item>
-
-          <item>
-            <title>POSTS - Page 2</title>
-            <link>https://jobsus.netlify.app/rssfeed-page-2.xml</link>
-            <description>RSS feed for page 2</description>
-            <guid isPermaLink="true">https://jobsus.netlify.app/rssfeed-page-2.xml</guid>
-          </item>
       </channel>
     </rss>
